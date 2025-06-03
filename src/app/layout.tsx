@@ -7,13 +7,13 @@ import "./globals.css";
 const inter = Space_Grotesk({ subsets: ["latin"], weight: ["500", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: "Muhammad Ramazan - Full Stack Developer",
-  description: "Portfolio of Muhammad Ramazan, a passionate full-stack developer specializing in modern web technologies, React, Next.js, and innovative digital solutions.",
-  keywords: "Muhammad Ramazan, Full Stack Developer, React, Next.js, Web Development, Portfolio",
-  authors: [{ name: "Muhammad Ramazan" }],
+  title: "Sherwin Limosnero - Game Developer",
+  description: "Portfolio of Sherwin Limosnero, a passionate game developer specializing in game design, music composition, and game development using Unity and Godot.",
+  keywords: "Sherwin Limosnero, Game Developer, Game Development, Unity, Godot, Android Studio, Portfolio",
+  authors: [{ name: "Sherwin Limosnero" }],
   openGraph: {
-    title: "Muhammad Ramazan - Full Stack Developer",
-    description: "Portfolio of Muhammad Ramazan, a passionate full-stack developer specializing in modern web technologies.",
+    title: "Sherwin Limosnero - Game Developer",
+    description: "Portfolio of Sherwin Limosnero, a passionate game developer specializing in game design, music composition, and game development using Unity and Godot.",
     type: "website",
   },
 };

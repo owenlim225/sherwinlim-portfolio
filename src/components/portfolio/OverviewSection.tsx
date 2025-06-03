@@ -109,28 +109,28 @@ export default function OverviewSection() {
                   <div>
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4 text-gray-900 dark:text-white flex items-center gap-2 md:gap-3">
                       <span className="text-2xl sm:text-3xl md:text-4xl">👋</span>
-                      Hello, I&apos;m Muhammad Ramazan
+                      Hello, I&apos;m Sherwin Limosnero
                     </h3>
-                    <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-4 md:mb-6">
-                      A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Full Stack Developer</span> and
+                    {/* and
                       <span className="font-bold text-purple-600 dark:text-purple-400">
-                        &nbsp; AI enthusiast</span> with
-                      <span className="font-bold text-green-600 dark:text-green-400"> 5+ years</span> of experience crafting
-                      digital experiences that users love.
+                        &nbsp; Storyteller</span> */}
+                    <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-4 md:mb-6">
+                      A student <span className="font-bold text-blue-600 dark:text-blue-400">Game Developer</span>  with
+                      <span className="font-bold text-green-600 dark:text-green-400"> 2+ years</span> of experience creating meaningful experiences through gameplay, design, and music.
                     </p>
                   </div>
 
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      I specialize in building scalable web and mobile applications using React, Next.js, TypeScript,
-                      and modern development technologies. I thrive on turning complex problems into elegant solutions
-                      that users love.
+                      I specialize in planning and designing game experiences using the Triple Diamond Design Process, 
+                      breaking down problems into manageable tasks, manage project workflows and task delegation through Notion and Trello
+                      before rapidly prototype in Figma. I then develop the games using Unity and Godot with the help of C# and GDScript.
                     </p>
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      Beyond work, I love exploring emerging technologies, contributing to open-source projects, and
-                      mentoring aspiring developers. I believe in continuous learning and staying at the forefront of
-                      technological innovation.
+                      My creative workflow also includes composing original music in FL Studio and producing 3D/2D assets with Blender and Photoshop, 
+                      while also working with Adobe Illustrator, Figma, and Canva for graphic design. Beyond development, I’m passionate about leadership, ideation, and sharing personal growth insights through 
+                      educational content on YouTube, TikTok, and Instagram using video editor such as DaVinci Resolve and Capcut.
                     </p>
                   </div>
 
@@ -138,10 +138,21 @@ export default function OverviewSection() {
                   <div className="border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <h4 className="font-bold text-gray-900 dark:text-white mb-3 md:mb-4 flex items-center gap-2">
                       <Icon icon="solar:lightning-bold" className="text-yellow-500 w-4 md:w-5 h-4 md:h-5" width={20} height={20} />
-                      Core Technologies
+                      Tools & Technologies
                     </h4>
                     <div className="flex flex-wrap gap-2 md:gap-3">
-                      {["AI Integration", "React", "Next.js", "TypeScript", "Node.js", "Python", "AWS", "UI/UX Design", "Healthcare IT"].map((skill, index) => (
+                      {[
+                        "Unity",
+                        "Godot",
+                        "C#",
+                        "Figma",
+                        "Blender",
+                        "Adobe Photoshop",
+                        "Canva",
+                        "FL Studio",
+                        "Notion",
+                        "Trello",
+                      ].map((skill, index) => (
                         <motion.span
                           key={skill}
                           initial={{ opacity: 0, scale: 0 }}
