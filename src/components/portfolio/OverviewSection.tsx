@@ -123,14 +123,11 @@ export default function OverviewSection() {
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      I specialize in planning and designing game experiences using the Triple Diamond Design Process, 
-                      breaking down problems into manageable tasks, manage project workflows and task delegation through Notion and Trello
-                      before rapidly prototype in Figma. I then develop the games using Unity and Godot with the help of C# and GDScript.
-                    </p>
+                      I design and develop game experiences using the Triple Diamond Process—breaking down ideas, 
+                      managing tasks with Notion and Trello, prototyping in Figma, and building with Unity (C#) and Godot (GDScript).
+                      </p>
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      My creative workflow also includes composing original music in FL Studio and producing 3D/2D assets with Blender and Photoshop, 
-                      while also working with Adobe Illustrator, Figma, and Canva for graphic design. Beyond development, I’m passionate about leadership, ideation, and sharing personal growth insights through 
-                      educational content on YouTube, TikTok, and Instagram using video editor such as DaVinci Resolve and Capcut.
+                      My creative workflow spans music composition in FL Studio, 2D/3D asset creation with Photoshop and Blender, and graphic design using Figma, Illustrator, and Canva. I also create educational content on YouTube, TikTok, and Instagram using DaVinci Resolve and CapCut.
                     </p>
                   </div>
 
@@ -152,6 +149,9 @@ export default function OverviewSection() {
                         "FL Studio",
                         "Notion",
                         "Trello",
+
+                        "DaVinci Resolve",
+                        "Capcut"
                       ].map((skill, index) => (
                         <motion.span
                           key={skill}
@@ -221,6 +221,8 @@ export default function OverviewSection() {
                     <span className="font-semibold text-blue-600 dark:text-blue-400">Healthcare IT Specialist</span>
                   </div>
                 </motion.div>
+
+                
               </div>
             </div>
           </motion.div>
@@ -235,7 +237,7 @@ export default function OverviewSection() {
               </h4>
               <div className="space-y-3">
                 <motion.a
-                  href="mailto:mramazan1@yahoo.com"
+                  href="mailto:owenlimosnero225@gmail.com"
                   whileHover={{ scale: 1.02, x: 4 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex items-center gap-3 p-3 rounded-lg bg-white/70 dark:bg-gray-800/30 hover:bg-white/90 dark:hover:bg-gray-800/50 transition-all duration-300 group border border-white/20 dark:border-gray-700/30"
@@ -244,7 +246,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:letter-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white break-all">mramazan1@yahoo.com</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white break-all">owenlimosnero225@gmail.com</div>
                   </div>
                 </motion.a>
 
@@ -256,7 +258,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:global-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">mramazan.dev</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">sherwinlim-portfolio.vercel.app</div>
                   </div>
                 </motion.div>
 
@@ -268,7 +270,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:map-point-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">Islamabad, Pakistan</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">Laguna, Philippines</div>
                   </div>
                 </motion.div>
               </div>
@@ -282,9 +284,9 @@ export default function OverviewSection() {
               </h4>
               <div className="space-y-4">
                 {[
-                  { icon: "solar:star-bold", text: "Top Rated on Upwork", color: "text-yellow-600" },
-                  { icon: "solar:cpu-bolt-bold-duotone", text: "Expert in AI Integration", color: "text-blue-600" },
-                  { icon: "solar:code-square-bold", text: "50+ Projects Delivered", color: "text-green-600" },
+                  { icon: "solar:star-bold", text: "President of UPHSL GDC", color: "text-yellow-600" },
+                  { icon: "solar:cpu-bolt-bold-duotone", text: "Multidisciplinary Creator", color: "text-blue-600" },
+                  { icon: "solar:code-square-bold", text: "5+ Projects Delivered", color: "text-green-600" },
                 ].map((achievement, index) => (
                   <motion.div
                     key={index}
@@ -301,7 +303,7 @@ export default function OverviewSection() {
             </div>
 
             {/* Available for Hire */}
-            <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-50/90 to-cyan-50/90 dark:from-emerald-950/30 dark:to-cyan-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">
+            {/* <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-50/90 to-cyan-50/90 dark:from-emerald-950/30 dark:to-cyan-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">
               <h4 className="font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
                 <Icon icon="solar:rocket-bold" className="text-emerald-600 w-5 h-5" width={20} height={20} />
                 Available for Hire
@@ -335,7 +337,7 @@ export default function OverviewSection() {
                   <span className="text-sm font-medium text-gray-800 dark:text-gray-300">Remote & On-site Available</span>
                 </motion.div>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </motion.div>
