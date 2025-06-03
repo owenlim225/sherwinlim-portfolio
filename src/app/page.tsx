@@ -3,7 +3,7 @@
 import {
   Background,
   CertificationsSection,
-  ContactSection,
+  // ContactSection,
   ExperienceSection,
   Footer,
   HeroSection,
@@ -11,7 +11,7 @@ import {
   OverviewSection,
   ProjectsSection,
   // TechStackSection,
-  TestimonialsSection
+  // TestimonialsSection
 } from "@/components/portfolio";
 
 export default function Portfolio() {
@@ -40,13 +40,13 @@ export default function Portfolio() {
         <ProjectsSection />
 
         {/* Testimonials Section */}
-        <TestimonialsSection />
+        {/* <TestimonialsSection /> */}
 
         {/* Certifications Section */}
         <CertificationsSection />
 
         {/* Contact Section */}
-        <ContactSection />
+        {/* <ContactSection /> */}
 
         {/* Footer */}
         <Footer />

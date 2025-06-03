@@ -87,6 +87,36 @@ export default function HeroSection() {
           ))}
         </motion.div>
 
+        
+
+
+        {/* Social Links - Instagram, YouTube, SoundCloud, Facebook */}
+        <motion.div
+          className="flex flex-wrap gap-3 justify-center mb-12"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.0 }}
+        >
+          {[
+            { href: "https://www.instagram.com/sshrwn_/", icon: "akar-icons:instagram-fill", label: "Instagram", color: "hover:text-pink-600" },
+            { href: "https://soundcloud.com/esphyl", icon: "simple-icons:soundcloud", label: "SoundCloud", color: "hover:text-orange-400" },
+            { href: "https://www.youtube.com/@SSHRWIN   ", icon: "akar-icons:youtube-fill", label: "YouTube", color: "hover:text-red-600" },
+            { href: "https://www.facebook.com/SherwinLimosneroPH/", icon: "akar-icons:facebook-fill", label: "Facebook", color: "hover:text-blue-700" }
+          ].map((link) => (
+            <motion.div key={link.label} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <Link
+                href={link.href}
+                className={`inline-flex items-center gap-2 px-4 py-2 bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 backdrop-blur-sm rounded-full text-sm transition-all duration-300 border border-gray-300/50 dark:border-gray-600/50 shadow-lg hover:shadow-xl ${link.color}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon icon={link.icon} width={18} height={18} />
+                {link.label}
+              </Link>
+            </motion.div>
+          ))}
+        </motion.div>
+
         {/* Skills Preview */}
         {/* <motion.div
           className="flex flex-wrap justify-center gap-3 mb-10"

@@ -127,7 +127,12 @@ export default function OverviewSection() {
                       managing tasks with Notion and Trello, prototyping in Figma, and building with Unity (C#) and Godot (GDScript).
                       </p>
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      My creative workflow spans music composition in FL Studio, 2D/3D asset creation with Photoshop and Blender, and graphic design using Figma, Illustrator, and Canva. I also create educational content on YouTube, TikTok, and Instagram using DaVinci Resolve and CapCut.
+                      My creative workflow also includes composing original music in FL Studio and producing 3D/2D assets with Blender and Photoshop, 
+                      while also working with Adobe Illustrator, Figma, and Canva for graphic design.</p>
+                      
+                    <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+                      Beyond development, I’m passionate about leadership, ideation, and sharing personal growth insights through 
+                      educational content on YouTube, TikTok, and Instagram using video editor such as DaVinci Resolve and Capcut.
                     </p>
                   </div>
 
@@ -221,8 +226,6 @@ export default function OverviewSection() {
                     <span className="font-semibold text-blue-600 dark:text-blue-400">Healthcare IT Specialist</span>
                   </div>
                 </motion.div>
-
-                
               </div>
             </div>
           </motion.div>
@@ -303,7 +306,7 @@ export default function OverviewSection() {
             </div>
 
             {/* Available for Hire */}
-            {/* <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-50/90 to-cyan-50/90 dark:from-emerald-950/30 dark:to-cyan-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-50/90 to-cyan-50/90 dark:from-emerald-950/30 dark:to-cyan-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">
               <h4 className="font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
                 <Icon icon="solar:rocket-bold" className="text-emerald-600 w-5 h-5" width={20} height={20} />
                 Available for Hire
@@ -337,7 +340,7 @@ export default function OverviewSection() {
                   <span className="text-sm font-medium text-gray-800 dark:text-gray-300">Remote & On-site Available</span>
                 </motion.div>
               </div>
-            </div> */}
+            </div>
           </motion.div>
         </div>
       </motion.div>
