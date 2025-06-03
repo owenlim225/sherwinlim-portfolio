@@ -20,21 +20,33 @@ export default function Navigation() {
           </motion.div>
           <div className="flex items-center space-x-8">
             <div className="hidden md:flex items-center space-x-8">
-              {/* "Stack" */}
-              {/* "Testimonials", */}
-              {["Projects", "Overview", "Experience",  "Certifications", "Contact",].map((item, index) => (
-                <motion.a
-                  key={item}
-                  href={`#${item.toLowerCase()}`}
-                  initial={{ opacity: 0, y: -20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors duration-300 text-sm font-medium"
-                >
-                  {item}
-                </motion.a>
-              ))}
-            </div>
+    {["Projects", "Overview", "Experience", "Certifications", "Contact"].map((item, index) => (
+      <motion.a
+        key={item}
+        href={`#${item.toLowerCase()}`}
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: index * 0.1 }}
+        className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors duration-300 text-sm font-medium"
+      >
+        {item}
+      </motion.a>
+    ))}
+
+    {/* CV Download link */}
+    <motion.a
+      key="cv"
+      href="/CV.pdf"
+      download
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.6 }} // or appropriate delay
+      className="inline-flex items-center gap-2 px-4 py-2 bg-white hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 border-2 border-gray-300 hover:border-gray-400 dark:border-gray-600 dark:hover:border-gray-500 rounded-xl font-medium text-sm shadow-md hover:shadow-lg transition-all duration-300"
+    >
+      <Icon icon="solar:download-outline" width={16} height={16} />
+      CV
+    </motion.a>
+  </div>
             {/* Theme Toggle */}
             <motion.button
               initial={{ opacity: 0, scale: 0.5 }}
