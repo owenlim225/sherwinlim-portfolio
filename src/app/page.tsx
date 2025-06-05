@@ -3,7 +3,7 @@
 import {
   Background,
   CertificationsSection,
-  ContactSection,
+  // ContactSection,
   ExperienceSection,
   Footer,
   HeroSection,
@@ -48,7 +48,7 @@ export default function Portfolio() {
         <CertificationsSection />
 
         {/* Contact Section */}
-        <ContactSection />
+        {/* <ContactSection /> */}
 
         {/* Footer */}
         <Footer />

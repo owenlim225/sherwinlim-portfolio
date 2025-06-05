@@ -10,9 +10,12 @@ export default function TypewriterRole() {
 
   const roles = [
     "Game Development",
-    "Mobile Development",
+    "Mobile Game Development",
     "Music Production",
+    "Music Composition",
     "Graphic Design",
+    "UI/UX Design",
+    "Web Development"
   ];
 
   // Typewriter effect
