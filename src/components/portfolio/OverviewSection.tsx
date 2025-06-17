@@ -188,8 +188,8 @@ export default function OverviewSection() {
 
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Game Developer</h4>
-                      <p className="text-blue-600 dark:text-blue-400 font-medium text-sm md:text-base">Freelancer</p>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">GameDev Freelancer</h4>
+                      <p className="text-blue-600 dark:text-blue-400 font-medium text-xs md:text-sm">Game Development PH</p>
                       <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2024 - Present</p>
                     </div>
                   </div>
@@ -214,9 +214,9 @@ export default function OverviewSection() {
 
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Graphic Designer</h4>
-                      <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">Public Health Organization</p>
-                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2021 — Present</p>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-sm md:text-base">Digital Marketing & Design</h4>
+                      <p className="text-green-600 dark:text-green-400 font-medium text-xs md:text-sm">DEVCON Philippines</p>
+                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">January 2025 — April 2025</p>
                     </div>
                   </div>
                   {/* <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">

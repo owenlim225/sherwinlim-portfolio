@@ -36,7 +36,8 @@ export default function Navigation() {
     {/* CV Download link */}
     <motion.a
       key="cv"
-      href="/CV.pdf"
+      // href="/CV.pdf" real ito, paltan mo pag oks na thanks
+      href=""
       download
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
