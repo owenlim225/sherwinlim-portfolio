@@ -60,7 +60,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          I make games, compose soundtracks, and design everything in between.
+          Crafting Immersive Digital Experiences through <br></br> Game Development, Visual Design, UI/UX, and Music.
         </motion.p>
 
         {/* Social Links - keeping exactly the same */}
@@ -170,7 +170,7 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.6, duration: 0.6 }}
-        className="hidden md:flex absolute bottom-20 left-0 right-0 justify-center pb-8 z-10"
+        className="hidden md:flex absolute bottom-10 left-0 right-0 justify-center pb-8 z-10"
       >
         <motion.button
           onClick={() => {

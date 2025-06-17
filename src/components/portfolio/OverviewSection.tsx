@@ -80,7 +80,7 @@ export default function OverviewSection() {
       >
         {/* Section Header */}
         <SectionHeader
-          tagText="Get To Know Me"
+          tagText="Introduction"
           tagIcon="solar:user-heart-bold"
           heading="About Me"
           description="Crafting digital experiences with passion, precision, and purpose"
@@ -115,8 +115,8 @@ export default function OverviewSection() {
                       <span className="font-bold text-purple-600 dark:text-purple-400">
                         &nbsp; Storyteller</span> */}
                     <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-4 md:mb-6">
-                      A student <span className="font-bold text-blue-600 dark:text-blue-400">Game Developer</span>  with
-                      <span className="font-bold text-green-600 dark:text-green-400"> 2+ years</span> of experience creating meaningful experiences through gameplay, design, and music.
+                      A student <span className="font-bold text-blue-600 dark:text-blue-400">Game Developer</span>  with combined
+                      <span className="font-bold text-green-600 dark:text-green-400"> 4 years</span> of experience creating meaningful experiences through gameplay, design, and music.
                     </p>
                   </div>
 
@@ -184,22 +184,23 @@ export default function OverviewSection() {
                 >
                   <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
                     <div className="p-2 md:p-3 bg-blue-500 rounded-lg md:rounded-xl shadow-lg">
-                      <Icon icon="solar:code-bold" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
+                      <Icon icon="mdi:gamepad-variant" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
+
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Software Developer</h4>
-                      <p className="text-blue-600 dark:text-blue-400 font-medium text-sm md:text-base">Upwork Freelancer</p>
-                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2020 — Present</p>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Game Developer</h4>
+                      <p className="text-blue-600 dark:text-blue-400 font-medium text-sm md:text-base">Freelancer</p>
+                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2024 - Present</p>
                     </div>
                   </div>
-                  <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
+                  {/* <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
                     Delivering high-quality projects across diverse domains, specializing in web applications,
                     API development, and cloud integrations.
-                  </p>
-                  <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
+                  </p> */}
+                  {/* <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:star-bold" className="text-yellow-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
                     <span className="font-semibold text-green-600 dark:text-green-400">Top Rated • 91% Success Score</span>
-                  </div>
+                  </div> */}
                 </motion.div>
 
                 <motion.div
@@ -209,22 +210,23 @@ export default function OverviewSection() {
                 >
                   <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
                     <div className="p-2 md:p-3 bg-green-500 rounded-lg md:rounded-xl shadow-lg">
-                      <Icon icon="solar:hospital-bold" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
+                      <Icon icon="mdi:palette" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
+
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">HIMS Master Trainer</h4>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Graphic Designer</h4>
                       <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">Public Health Organization</p>
-                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2019 — Present</p>
+                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2021 — Present</p>
                     </div>
                   </div>
-                  <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
+                  {/* <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
                     Leading digital transformation in healthcare, integrating 45+ radiology machines and
                     training teams on modern HIMS and PACS systems.
-                  </p>
-                  <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
+                  </p> */}
+                  {/* <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
                     <span className="font-semibold text-blue-600 dark:text-blue-400">Healthcare IT Specialist</span>
-                  </div>
+                  </div> */}
                 </motion.div>
               </div>
             </div>
@@ -253,17 +255,23 @@ export default function OverviewSection() {
                   </div>
                 </motion.a>
 
-                <motion.div
+                <motion.a
+                  href="https://www.linkedin.com/in/sherwinlimosnero/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.02, x: 4 }}
-                  className="flex items-center gap-3 p-3 rounded-lg bg-white/70 dark:bg-gray-800/30 border border-white/20 dark:border-gray-700/30"
+                  className="flex items-center gap-3 p-3 rounded-lg bg-white/70 dark:bg-gray-800/30 border border-white/20 dark:border-gray-700/30 transition-transform"
                 >
-                  <div className="p-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md shadow-md">
-                    <Icon icon="solar:global-bold" className="text-white w-4 h-4" width={16} height={16} />
+                  <div className="p-1 bg-blue-600 rounded-md shadow-md">
+                    <Icon icon="mdi:linkedin" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">sherwinlim-portfolio.vercel.app</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">
+                      Sherwin Limosnero
+                    </div>
                   </div>
-                </motion.div>
+                </motion.a>
+
 
                 <motion.div
                   whileHover={{ scale: 1.02, x: 4 }}
