@@ -2,13 +2,13 @@
 
 import {
   Background,
+  Navigation,
   // CertificationsSection,
   // ContactSection,
-  // ExperienceSection,
+  ExperienceSection,
+  OverviewSection,  
   Footer,
   HeroSection,
-  Navigation,
-  OverviewSection,  
   // ProjectsSection,
   // TechStackSection,
   // TestimonialsSection
@@ -30,6 +30,8 @@ export default function Portfolio() {
         {/* Projects Section */}
         {/* <ProjectsSection /> */}
 
+        {/* Experience Section */}
+        <ExperienceSection />
 
         {/* Overview Section */}
         <OverviewSection />
@@ -37,8 +39,6 @@ export default function Portfolio() {
         {/* Tech Stack Section */}
         {/* <TechStackSection /> */}
 
-        {/* Experience Section */}
-        {/* <ExperienceSection /> */}
 
 
         {/* Testimonials Section */}
