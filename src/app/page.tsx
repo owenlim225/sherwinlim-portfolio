@@ -5,7 +5,7 @@ import {
   Navigation,
   // CertificationsSection,
   // ContactSection,
-  ExperienceSection,
+  // ExperienceSection,
   OverviewSection,  
   Footer,
   HeroSection,
@@ -31,7 +31,7 @@ export default function Portfolio() {
         {/* <ProjectsSection /> */}
 
         {/* Experience Section */}
-        <ExperienceSection />
+        {/* <ExperienceSection /> */}
 
         {/* Overview Section */}
         <OverviewSection />
